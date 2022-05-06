@@ -2,12 +2,12 @@ import vedo
 from vedo.pyplot import histogram
 import numpy as np
 import pandas as pd
-
+import os
 '''
 Pandas data pre-processing
 '''
 # Load the csv data
-dataset_path = 'dataset\metadata.csv'
+dataset_path = os.path.join('dataset','metadata.csv')
 dataset = pd.read_csv(dataset_path)  
 print(dataset.head())
 
@@ -29,11 +29,14 @@ unique_months_name = dataset['Months_name'].unique()
 Vedo dataset visualization
 '''
 # Initialize a vedo plotter, with N number of subfigures, axis shown at each one and each window has separete camera
-plt = vedo.Plotter(N=len(unique_months)+2, axes=1, sharecam = 0)
+plt = vedo.Plotter(N=len(unique_months)+2, axes=1, sharecam = 0, size=(2100, 1150))
 
 # Initialize 3D point cloud from the dataset columns and visualize on the first subfigure
-pc = vedo.Points(dataset_scatter, r=8, c="blue5")
-plt.at(0).show(pc,bg='black',axes=1)
+pc = vedo.Points(dataset_scatter, r=5)
+pc.cmap("Blues_r", dataset_scatter[:,2]) # colorize points by their value in z
+# Show a label that always faces camera
+vig = pc.vignette("August", font="Quikhand", point=(20,60,80), c='white').followCamera()
+plt.at(0).show(pc, vig, bg='black',axes=1)
 
 # For each month generate separate points and a separate subfigure
 for idx, month in enumerate(unique_months):
