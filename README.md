@@ -3,8 +3,9 @@ Repository for the code used in the Medium articles about Python libraries for 3
 
 ![Visual](images/full_beauty.gif)
 
-Each folder contains different Towards Data Science articles. In the folders there are the used data and Python files. Each of the .py files here contains the code for one of the presented Python libraries. For installation and initial setup, please check the Medium articles. 
-The used angel statue mesh and point cloud, bunny statue point cloud and rooster statue can be found in the folders or can be downloaded as part of larger Photogrammetry datasets - [HERE](https://doi.org/10.17632/bzxk2n78s9.4) and [HERE](https://doi.org/10.17632/xtv5y29xvz.2)
+Each folder contains different Towards Data Science articles. In the folders there are the used data and Python files. Each of the .py files here contains the code for one of the presented Python libraries. For installation and initial setup, please check the Medium articles. For overview of what each script does, please look at the readme explanations in each folder.
+
+The used angel statue mesh and point cloud, bunny statue point cloud and rooster statue can be found in the folders or can be downloaded as part of larger Photogrammetry datasets - [HERE](https://doi.org/10.17632/bzxk2n78s9.4) and [HERE](https://doi.org/10.17632/xtv5y29xvz.2). These datasets were part of these publications - [here](https://link.springer.com/chapter/10.1007/978-3-319-48496-9_2) and [here](https://www.mdpi.com/1424-8220/20/19/5725/htm)
 The used dataset can be also downloaded from [HERE](https://www.kaggle.com/datasets/ivannikolov/longterm-thermal-drift-dataset) and is a part of this [publication](https://vbn.aau.dk/ws/files/452153692/paper.LjjqegBNtPi.pdf)
 
 You can follow the series of articles:
