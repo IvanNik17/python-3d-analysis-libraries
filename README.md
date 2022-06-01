@@ -12,6 +12,10 @@ You can follow the series of articles:
  - [Python Libraries for Mesh, Point Cloud, and Data Visualization (Part 2)](https://towardsdatascience.com/python-libraries-for-mesh-point-cloud-and-data-visualization-part-2-385f16188f0f#3a19-c5ba22819880)
  - [How to Voxelize Meshes and Point Clouds in Python](https://towardsdatascience.com/how-to-voxelize-meshes-and-point-clouds-in-python-ca94d403f81d)
 
+# Examples from the articles
 
+![Visual](images/plotoptix.gif)
 
+![Visual](images/pyvista_dataset.gif)
 
+![Visual](images/voxel_threshold.gif)
