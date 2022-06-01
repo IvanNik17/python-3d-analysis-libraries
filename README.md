@@ -13,9 +13,9 @@ You can follow the series of articles:
  - [How to Voxelize Meshes and Point Clouds in Python](https://towardsdatascience.com/how-to-voxelize-meshes-and-point-clouds-in-python-ca94d403f81d)
 
 # Examples from the articles
-
+Ray tracing using PlotOptiX
 ![Visual](images/plotoptix.gif)
-
+Dataset 3D interactive visualization using PyVista
 ![Visual](images/pyvista_dataset.gif)
-
+Voxelization and interactive thresholding
 ![Visual](images/voxel_threshold.gif)
