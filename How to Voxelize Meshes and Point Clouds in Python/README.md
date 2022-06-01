@@ -1,26 +1,11 @@
-# Python Libraries for Meshes and Point Clouds
-Repository for the code used in the Medium articles about Python libraries for 3D analysis, visualization and manipulation of point clouds and meshes.
+# How to Voxelize Meshes and Point Clouds in Python
 
-![Visual](images/full_beauty.gif)
+Code overview:
 
-Each folder contains different Towards Data Science articles. In the folders there are the used data and Python files. Each of the .py files here contains the code for one of the presented Python libraries. For installation and initial setup, please check the Medium articles. 
-The used angel statue mesh and point cloud, bunny statue point cloud and rooster statue can be found in the folders or can be downloaded as part of larger Photogrammetry datasets - [HERE](https://doi.org/10.17632/bzxk2n78s9.4) and [HERE](https://doi.org/10.17632/xtv5y29xvz.2)
-The used dataset can be also downloaded from [HERE](https://www.kaggle.com/datasets/ivannikolov/longterm-thermal-drift-dataset) and is a part of this [publication](https://vbn.aau.dk/ws/files/452153692/paper.LjjqegBNtPi.pdf)
+- open3d_voxelize_multiple_levels.py - **Open3D** code for voxelization of the bunny statue with different sizes of voxel grids, transforming them into a mesh and animating them in real time
+- open3d_voxelize_step_by_step.py - **Open3D** code for visualization of the voxel grid creation as an animation. The voxels are precomputed and then visualized in an animation callback
+- pyntcloud_voxelize.py - **pyntcloud** code for voxelization of the bunny statue, calculating the voxel density and using different primitives instead of cubes, like spheres, cylinders, cones, etc.
+- pyvista_voxelize_multiplot.py - **PyVista** code for creating a multiplot visualization of the rooster statue mesh, the voxelized version, a version with cones instead of cubes and a version that has pseudo-color map of the per voxel distances between mesh vertices and voxels
+- pyvista_voxelize_widgets.py - **PyVista** code for creating two interactive widget examples - first an interactive voxel thresholding tool and second an interactive voxelization tool for choosing the size of the voxel grid.
+- trimesh_voxelize.py - **Trimesh** code for creating a voxel representation of the rooster and calculating per voxel colors by mapping the texture information to the mesh vertices and calculating the closed distances between each voxel and mesh vertex. 
 
-You can follow the series of articles:
- - [Python Libraries for Mesh, Point Cloud, and Data Visualization (Part 1)](https://towardsdatascience.com/python-libraries-for-mesh-and-point-cloud-visualization-part-1-daa2af36de30) 
- - [Python Libraries for Mesh, Point Cloud, and Data Visualization (Part 2)](https://towardsdatascience.com/python-libraries-for-mesh-point-cloud-and-data-visualization-part-2-385f16188f0f#3a19-c5ba22819880)
- - [How to Voxelize Meshes and Point Clouds in Python](https://towardsdatascience.com/how-to-voxelize-meshes-and-point-clouds-in-python-ca94d403f81d)
-
-# Examples from the articles
-Ray tracing using PlotOptiX
-
-![Visual](images/plotoptix.gif)
-
-Dataset 3D interactive visualization using PyVista
-
-![Visual](images/pyvista_dataset.gif)
-
-Voxelization and interactive thresholding
-
-![Visual](images/voxel_threshold.gif)
