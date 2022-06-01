@@ -14,8 +14,13 @@ You can follow the series of articles:
 
 # Examples from the articles
 Ray tracing using PlotOptiX
+
 ![Visual](images/plotoptix.gif)
+
 Dataset 3D interactive visualization using PyVista
+
 ![Visual](images/pyvista_dataset.gif)
+
 Voxelization and interactive thresholding
+
 ![Visual](images/voxel_threshold.gif)
