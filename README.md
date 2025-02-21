@@ -11,7 +11,7 @@ The used dataset can be also downloaded from [HERE](https://www.kaggle.com/datas
 
 You can follow the series of articles:
  - [Python Libraries for Mesh, Point Cloud, and Data Visualization (Part 1)](https://towardsdatascience.com/python-libraries-for-mesh-and-point-cloud-visualization-part-1-daa2af36de30) 
- - [Python Libraries for Mesh, Point Cloud, and Data Visualization (Part 2)](https://towardsdatascience.com/python-libraries-for-mesh-point-cloud-and-data-visualization-part-2-385f16188f0f#3a19-c5ba22819880)
+ - [Python Libraries for Mesh, Point Cloud, and Data Visualization (Part 2)](https://medium.com/towards-data-science/python-libraries-for-mesh-point-cloud-and-data-visualization-part-2-385f16188f0f)
  - [How to Voxelize Meshes and Point Clouds in Python](https://towardsdatascience.com/how-to-voxelize-meshes-and-point-clouds-in-python-ca94d403f81d)
  - [Neighborhood Analysis, KD-Trees, and Octrees for Meshes and Point Clouds in Python](https://towardsdatascience.com/how-to-voxelize-meshes-and-point-clouds-in-python-ca94d403f81d)
 
